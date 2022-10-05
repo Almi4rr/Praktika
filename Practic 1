@@ -1,0 +1,8 @@
+def make_shirt(size,message):
+    print("size: " + size)
+    print("message: " + message)
+
+# Использовать вызов аргумента позиции
+make_shirt('large','Hello World!')
+# Использовать вызов аргумента ключевого слова
+make_shirt(size = 'large',message = 'Hello World!')
